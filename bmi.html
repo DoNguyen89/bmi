@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI</title>
+</head>
+<body>
+    <script>
+        var height = parseInt(prompt("Import your height:"));
+        var weight = parseInt(prompt("Import your weight:"));
+        var bmi = weight / height;
+        if (bmi < 18.5)
+            alert("Your BMI is Underweight!");
+        else if (18.5 < bmi && bmi >= 25)
+            alert("Your BMI is Normal");
+        else if (bmi > 25 && bmi <= 30)
+            alert("Your BMI is overweight");
+        else alert("Your BMI is obese");
+    </script>
+</body>
+</html>
